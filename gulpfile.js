@@ -13,7 +13,7 @@ var gulp = require("gulp"),
     cordovaBuild = require("taco-team-build");
 
 // Setup platforms to build that are supported on current hardware
-var winPlatforms = ["android", "windows"],
+var winPlatforms = ["android"],
     linuxPlatforms = ["android"],
     osxPlatforms = ["ios"],
     platformsToBuild = process.platform === "darwin" ? osxPlatforms :                   
